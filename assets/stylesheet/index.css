@@ -352,9 +352,31 @@ span+span {
     border: none;
     cursor: pointer;
 }
-
+.cv_button:hover {
+    background-color: #776254;
+    box-shadow: 0px 2px 10px #141414;
+    transition: 1s transform;
+}
 .contact_button {
-    display: none;
+    display: inline-block;
+    background-color: var(--beaver);
+    border-radius: 3rem;
+    padding: .7rem 4rem .6rem 4rem;
+    color: var(--jet);
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 2rem 0 2rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.contact_button:hover {
+    background-color: #776254;
+    box-shadow: 0px 2px 10px #141414;
+    transition: 1s transform;
 }
 
 .links {
@@ -449,7 +471,7 @@ span+span {
     padding: 6rem 0 5rem 0;
 }
 
-.puntos1-habilidades, .puntos2-habilidades {
+.puntos1-habilidades, .puntos2-habilidades, .puntos3-habilidades, .puntos4-habilidades {
     display: none;
 }
 
@@ -474,7 +496,6 @@ span+span {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* filter: saturate(40%); */
     width: 13rem;
     height: 14rem;
 }
@@ -872,7 +893,11 @@ footer {
 }
 
 .container_text--footer {
-    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100px; /* Ajusta la altura según sea necesario */
+    text-align: center; /* Asegura que el texto esté centrado */
 }
 
 .container_text--footer span {
