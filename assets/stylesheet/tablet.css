@@ -92,3 +92,8 @@ nav.nav_menu.active {
     margin: 0 auto;
     width: 80%;
 }
+.btn_demo:disabled {
+    background-color: #ccc; /* Cambia el color de fondo */
+    cursor: not-allowed; /* Cambia el cursor para indicar que no es clicable */
+    opacity: 0.6; /* Reduce la opacidad */
+}
